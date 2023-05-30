@@ -1,0 +1,158 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to left, #9a268a, #222b4a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  background-image: linear-gradient(to left, #482d92, #9977bc);
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.TodoWrapper {
+  background: rgb(154,38,138);
+background: linear-gradient(90deg, rgba(154,38,138,1) 38%, rgba(34,43,74,1) 91%);
+  margin-top: 5rem;
+  padding: 10rem;
+  border-radius: 5px;
+  border-radius: 30px;
+}
+
+.TodoForm {
+  width: 100%;
+  
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #efe5e5fb;
+}
+
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  font-family: fontAwesome;
+  content: "\f067\00a0";
+  
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3e1f8e;
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
+ 
+.css-button {
+	color: #FFFFFF;
+	font-size: 5px;
+  padding: 0.55rem;
+	border-radius: 15px;
+	border: solid 1px #d133ed;
+	text-shadow: 0px 1px 13px #b115cd;
+	box-shadow: inset 1px 1px 2px -23px #ef97fe;
+	text-decoration: none;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	font-family: cursive;
+	background: linear-gradient(180deg, #da3df6 10%, #b51ed0 100%);
+	display: inline-flex;
+	align-items: center;
+	padding: 0;
+}
+.css-button:hover {
+	background: linear-gradient(180deg, #b51ed0 10%, #da3df6 100%);
+}
+.css-button-text {
+	position: relative;
+	padding: 10px 18px;
+}
+.css-button-icon {
+	position: relative;
+	border-right: 1px solid #ffffff29;
+	box-shadow: inset rgb(0 0 0 / 14%) -1px 0 0;
+	padding: 10px 7px;
+}
